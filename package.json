@@ -1,0 +1,23 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --colors --progress --port 3000",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14",
+    "webpack-merge": "^0.10.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3"
+  }
+}
